@@ -11,7 +11,7 @@ const users = require('./routes/userRoutes')
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
-app.use('/', users)
+app.use('/users', users)
 
 app.use(require('./routes/routes'))
 
