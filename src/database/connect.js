@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const a = 3
 const connectToDataBase = async () => {
   await mongoose.connect(
     `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@aaaaa.6owmu.mongodb.net/?retryWrites=true&w=majority`,
