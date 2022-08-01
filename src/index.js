@@ -27,6 +27,6 @@ app.use(require('./routes/routes'))
 
 const port = process.env.PORT || 3001
 
-app.listen(port, ()=>console.log(`ouvindo na porta 3001`))
+app.listen(port, ()=>console.log(`ouvindo na porta ${port}`))
 
 // mongodb+srv://admin:<password>@aulanodejs.xtpk7.mongodb.net/?retryWrites=true&w=majority
